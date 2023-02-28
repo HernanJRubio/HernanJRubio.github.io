@@ -1,0 +1,694 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    font-size: 1.2rem;
+    min-height: 100%;
+    background-color: #e5eaf5;
+  }
+
+
+/* AREAS CONTENEDOR GENERAL */
+
+
+  /* .encabezado {
+    background-color: #85aedd;
+  }
+  
+  .sidebar {
+    background-color: #fdcfcf;
+  }
+  
+  .main {
+    background-color: darkcyan;
+  }
+  
+  .pdp {
+    background-color: #8c96a0;
+  }
+
+  
+
+/* AREAS MAIN */
+
+  /* #mombre-main {
+      background-color: darkgoldenrod;
+  }
+
+  .sobre-mi {
+     background-color: coral;
+  }
+
+  .experiencias {
+      background-color: darkkhaki;
+  }
+
+  .habilidades {
+      background-color: darkolivegreen;
+
+  }
+  
+  .portfolio {
+     background-color: firebrick;
+  } */
+   
+  
+/* MOVIL <=600px -----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*ESTRUCTURA*/
+
+
+
+/*ENCABEZADO*/
+
+  .encabezado {
+    text-align: center;
+    font-size: 10px;
+    margin: 5px 0 5px 0;
+    text-transform: uppercase;
+    background-color: #a28089;
+    color: #e5eaf5;
+  }
+
+  .encabezado > h1 {
+    font-size: auto;
+  }
+
+/*SIDEBAR*/
+
+  .sidebar {
+    background-color: #8458B3;
+    color: #e5eaf5;
+    padding: 5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    
+  }
+
+  #contenedor-foto-perfil {
+    width: 100%
+    
+  }
+  
+  #foto-perfil {
+    background-color: #e5eaf5;
+    padding: 3px;
+    width: 45%;
+    box-shadow: 1px 1px 10px #484848;
+    border-radius: 50%;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  #nombre-sidebar {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2% 0 2% 0;
+    margin-bottom: 5%;
+    text-shadow: 1px 1px 10px #484848;
+  }
+
+  #lista-info-personal {
+    list-style: none;
+    margin-top: 1%;
+    
+    
+  }
+
+  #item-info-personal {
+    padding: 2% 0 4% 0;
+
+  }
+
+  #info-personal {
+    padding: 2% 0 0 0;
+
+  }
+
+
+  #lista-social-media {
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    
+
+  }
+
+  #iconos-social-media {
+    display: inline-block;
+    margin: 20px 15px 0 15px;
+ 
+}
+
+  #icono-abajo {
+    width: 100%;
+    margin: 5% 0 5% 0;
+
+}
+
+  #boton-abajo {
+    color: #e5eaf5;
+    cursor: pointer;
+    font-size: 40px;
+    display: block;
+    margin: 5% 0 5% 0;
+    text-align: center;
+
+}
+
+
+/*MAIN*/
+
+  .main {
+
+    padding: 5%;
+    background-color: #e5eaf5;
+    color: #8458B3;
+  }
+
+  .main > * > hr {
+    height: 5px;
+    background-color: #8458B3;
+    border-radius: 50%;
+  }
+
+  #mombre-main {
+
+    display: none;
+  }
+
+  #texto-sobre-mi {
+
+    text-align: justify;
+  }
+
+  #lista-experiencias {
+    list-style: none;
+
+  }
+
+  #lista-experiencias {
+    list-style: none;
+
+  }
+
+  #item-experiencias {
+    margin: 10px 0 5px 0 ;
+    font-weight: bold;
+    
+  }
+
+  #info-experiencias-laborales {
+    text-align: justify; 
+
+  }
+
+  #lista-conocimientos-icons {
+    list-style: none;
+    text-align: center;
+    font-size: 45px;
+    
+  }
+
+  #items-conocimientos-icons {
+
+    margin: 20px 15px 20px 15px;
+    padding-bottom: 5%;
+    
+  }
+
+  #lista-conocimientos-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .habilidades > hr {
+
+    display: none;
+  }
+
+
+
+  .carrusel-formato-grande {
+    display: none;
+  }
+
+
+  .carrusel-formato-movil {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    position: relative;
+  }
+
+  .imagen-carrusel-movil {
+
+    flex: 1 0 auto;
+    margin: 0 5px;
+    width: auto;
+    height: auto;
+    position: relative;
+    
+  }
+
+  .imagen-carrusel-movil > img {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .descripcion-imagen-carrusel {
+    position: absolute;
+    color: #e5eaf5;
+    width: 300px;
+    text-align: center;
+    height: auto;
+    top: 70%;
+    background-color: rgba(132, 88, 179, 0.8);;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+  }
+  
+
+
+/* FOOTER*/
+
+  .pdp {
+
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #a28089;
+    color: #e5eaf5;
+    padding: 5px;
+  }
+
+  .formulario-contacto {
+
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .labels {
+    display: block;
+    text-align: start;
+    padding-top: 5%;
+    
+  }
+
+  .imputs {
+    
+    background-color: #e5eaf5;
+    padding: 3%;
+    border-radius: 5px;
+  }
+
+  .imputs::placeholder {
+    color: #a28089;
+    
+  }
+
+  #imput-mensaje {
+    
+    max-width: 100%;
+    min-height: 10em;
+    max-height: 20em;
+    
+  }
+
+  #boton-emviar {
+
+    padding: 5%;
+    border-radius: 5px;
+    color: #a28089;
+    background-color: #e5eaf5;
+  }
+  
+  #boton-enviar:hover {
+    cursor: pointer;
+  }
+
+  .pdp > hr {
+    height: 5px;
+    border-radius: 50%;
+    margin: 1% 3% 1% 3%;
+  }
+  
+
+
+
+
+
+
+/* TABLET y PC >600px ---------------------------------------------------------------------------------------------------------------------------*/
+  @media (min-width: 600px) {
+  
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+
+
+    .contenedor-general{
+      display: block;
+      box-sizing: border-box;
+    }
+
+/*ENCABEZADO*/
+
+    .encabezado {
+      float: left;
+      width: 100%;
+      
+      height: auto;
+      margin: auto
+    }
+
+/*SIDEBAR*/
+
+    .sidebar {
+
+      display: block;
+      width: 39%;
+      height: auto;
+      float: left;
+      margin: 1% 0 0 3%;
+      border-radius: 25px 0 25px 25px;
+    }
+
+    #foto-perfil {
+
+      width: 75%;
+    }
+
+    #nombre-sidebar {
+      display: none;
+    }
+
+    #lista-social-media {
+
+      display: flex;
+      justify-content: space-around;
+    }
+
+    #icono-abajo {
+
+      display: none;
+    }
+
+/*MAIN*/
+
+    .main{
+
+      padding: 0;
+      margin-right: 3%;
+    } 
+
+    #mombre-main {
+
+      display: block;
+      float: left;
+      width: 60%;
+      background-color: #8458B3;
+      color: #e5eaf5;
+      font-size: 3rem;
+      margin: 1% -3%;
+      border-radius: 0 25px 25px 0;
+      padding: 2%;
+      padding-left: 3%;
+      
+    }
+
+    .sobre-mi {
+      width: 53%;
+      float: right;
+      font-size: 1rem;
+      margin-left: 3%;
+    }
+
+    .experiencias {
+      width: 53%;
+      float: right;
+      
+    }
+
+    #lista-experiencias {
+
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .habilidades {
+      width: 40%;
+      float: right;
+      margin: 0 3% 0 3%;
+    }
+
+    .habilidades > hr {
+      display: block;
+    }
+
+    #lista-conocimientos-icons{
+
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .portfolio {
+
+      clear: both;
+      margin: 0 3% 0 3%;
+    }
+
+
+    .carrusel-formato-movil {
+
+      display: none;
+    }
+
+    .carrusel-formato-grande {
+        
+      width: 60%;
+      max-width: 100em;
+      display: block;
+      overflow: hidden;
+      margin: 0 auto 0 auto;
+      
+  
+    }
+  
+    .contenedorcarruselgrande {
+      
+      width: 600%;
+      
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      
+  
+      transition: all .5s ease ;
+      transform: translateX(0%);
+  
+  
+    }
+  
+    .imagen-carrusel-grande {
+      
+      
+      width: calc(100% / 6);
+      background-color: #8458B3;
+      text-align: center;
+      position: relative;
+      padding: 0.5%;
+      border-radius: 25px;
+      
+      
+      
+  
+  
+    }
+  
+    .imagen-carrusel-grande > img {
+      width: 100%;
+    }
+  
+    .imagen-carrusel-grande > figcaption {
+      display: block;
+      width: auto;
+      text-align: center;
+      padding: 1.5%;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -10%);
+      background-color: rgba(132, 88, 179, 0.8);
+      position: absolute;
+      border-radius: 25px;
+      color: #e5eaf5;
+      
+  
+      
+    }
+  
+    figcaption > h3 {
+  
+      display: inline;
+    }
+  
+  
+    .puntos {
+      
+      width: 50%;
+      padding: 1em;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+  
+      
+      
+      
+    }
+  
+    .punto {
+  
+      width: 1em;
+      height: 1em;
+      background-color: #e5eaf5;
+      margin: 1% 1% 0;
+      border-radius: 25px;
+      
+      border: 1px solid #8458B3;
+  
+  
+    }
+  
+    .punto.activo {
+  
+      background-color: #8458B3;
+    }
+
+
+/*PIE DE PAGINA*/
+    
+    .pdp {
+
+      clear: both;
+      height: auto;
+    }
+
+    .formulario-contacto {
+
+      display: block;
+      width: 100%;
+      margin: auto;
+      box-sizing: border-box;
+      
+      
+    }
+
+    .formulario-contacto > br {
+
+      display: none;
+      
+      
+    }
+
+    #nombre {
+      width: 30%;
+      float: left;
+      display: flex;
+      flex-direction: column;     
+      margin: 3% 3% 0 1.5%; 
+    }
+
+    #email{
+      width: 30%;
+      clear: left;
+      float: left;
+      display: flex;
+      flex-direction: column;     
+      margin: 3% 3% 0 1.5%; 
+    }
+    
+    #asunto {
+
+      width: 30%;
+      clear: left;
+      float: left;
+      display: flex;
+      flex-direction: column;     
+      margin: 3% 3% 0 1.5%; 
+    }
+
+    #mensaje {
+
+      width: 50%;
+      float: none;
+      display: flex;
+      flex-direction: column;
+      margin: 1.5% 3% 3% auto
+
+    }
+
+    #boton-emviar{
+      clear: right;
+      float: none;
+      margin: 3% 3% 3% auto;
+      padding: 10px;
+      display: block;
+    }
+    
+
+    
+
+
+    
+
+
+
+
+    
+
+
+
+  }
+
+  
+
+
+
+  

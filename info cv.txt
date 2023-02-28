@@ -1,0 +1,34 @@
+Info Cv sacada aleatoriamente de https://randomuser.me/
+
+nombre:Hilda May
+fecha:nacimiento:9/2/1986
+email:hilda.may@example.com
+direccion:5621 W Gray St
+telefono:(369) 603-9884
+pass:stellar
+
+
+Fuente letra: https://fonts.google.com/specimen/Quicksand
+
+Paleta color:
+
+Ice Cold: #a0d2eb
+
+Freeze Purple: #e5eaf5
+
+Medium Purple: #d0bdf4
+
+Purple Pain: #8458B3
+
+Heavy Purple: #a28089
+
+Creditos fotos:
+
+Fotos libres sacadas de https://www.pexels.com/
+
+Foto de Ian Beckley: https://www.pexels.com/es-es/foto/lago-con-vista-a-la-montana-2440021/
+Foto de Tobi: https://www.pexels.com/es-es/foto/canoa-marron-en-el-cuerpo-de-agua-cerca-de-la-montana-675764/
+Foto de eberhard grossgasteiger: https://www.pexels.com/es-es/foto/casa-marron-entre-montanas-730981/
+Foto de Jaime Reimer: https://www.pexels.com/es-es/foto/hermosa-vista-del-lago-moraine-2662116/
+Foto de Francesco Ungaro: https://www.pexels.com/es-es/foto/globos-de-aire-caliente-en-el-cielo-2325446/
+Foto de eberhard grossgasteiger: https://www.pexels.com/es-es/foto/montana-nevada-1287145/
